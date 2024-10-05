@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    perspective: 600px;
+    transition: all 0.3s ease;
+}
+
+.nav-links {
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.nav-links img {
+    width: 14%;
+    height: 16%;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.nav-links img:hover {
+    transform: scale(1.1) rotateX(120deg);
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    height: 0px;
+    font-weight: 600;
+    margin-top: 37px;
+    margin-left: -121px;
+    transition: transform 0.3s ease;
+}
+
+.nav-links a:hover {
+    transform: scale(1.2) skewY(80deg);
+}
+
+.nav-links button {
+    padding: 0px 11px;
+    height: 40px;
+    font-family: none;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    background-color: #ed7c6a;
+    color: white;
+    margin-top: 28px;
+    transition: transform 0.3s ease;
+}
+
+.nav-links button:hover {
+    transform: scale(1.1) rotateX(-59deg);
+}
+
+.nav-links div {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.nav-links div:hover {
+    transform: scale(1.05);
+}
+
+.nav-links div p {
+    width: 27%;
+    padding: 64px 43px;
+    margin: 89px;
+    margin-left: 197px;
+    background-color: #5ea58e;
+    font-size: 48px;
+    border-radius: 33px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.nav-links div p:hover {
+    transform: rotate(-1990deg) scale(1.3);
+}
+
+.header-content h3 {
+    text-align: center;
+    color: #074d4c;
+    font-size: 31px;
+    margin-top: 46px;
+    font-family: cursive;
+    font-weight: 100;
+    transition: transform 0.3s ease;
+}
+
+.header-content h3:hover {
+    transform: scale(1.2) skewY(5deg);
+}
+
+.header-content hr {
+    width: 16%;
+    margin: auto;
+    background-color: orange;
+    height: 5px;
+    border: none;
+    margin-top: 9px;
+    transition: transform 0.3s ease;
+}
+
+.header-content hr:hover {
+    transform: scale(1.2) rotate(15deg);
+}
+
+.section-home {
+    display: flex;
+    align-items: center;
+}
+
+.section-home div:nth-of-type(1) {
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.section-home div:nth-of-type(1):hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.section-home div:nth-of-type(2) {
+    width: 70%;
+    transition: transform 0.3s ease;
+}
+
+.section-home div:nth-of-type(2):hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.section-home img {
+    width: 100%;
+    margin-left: 100px;
+    transition: transform 0.3s ease;
+}
+
+.section-home img:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+
+.section-home h2 {
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+    color: #439da5;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.section-home h2:hover {
+    transform: scale(1.2) skewX(5deg);
+}
+
+.section-home p {
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    font-family: cursive;
+    transition: transform 0.3s ease;
+}
+
+.section-home p:hover {
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.section-content {
+    background-image: url(../img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    margin-top: 150px;
+    transition: transform 0.3s ease;
+}
+
+.section-content:hover {
+    transform: scale(1.15) rotate(-39deg);
+}
+
+.section-content .Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 200px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.section-content .Item:hover {
+    transform: scale(1.2) rotateX(57deg);
+}
+
+.section-content .Item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.section-content .Item img:hover {
+    transform: scale(1.2) rotate(-190deg);
+}
+
+.section-content .Item h3 {
+    margin: 10px 0;
+    color: #6c9da5;
+    transition: transform 0.3s ease;
+}
+
+.section-content .Item h3:hover {
+    transform: scale(1.2) skewY(19deg);
+}
+
+.section-content .Item p {
+    margin: 10px 0;
+    color: #a47b7b;
+    transition: transform 0.3s ease;
+}
+
+.section-content .Item p:hover {
+    transform: scale(0.1) rotate(-80deg);
+}
+
+.prefooter {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.prefooter img {
+    width: 17%;
+    margin: 25px;
+    transition: transform 0.3s ease;
+}
+
+.prefooter img:hover {
+    transform: rotate(280deg);
+}
+
+footer {
+    background-color: #067960;
+    color: white;
+    padding: 20px 0;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 70px;
+    transition: transform 0.3s ease;
+}
+
+footer:hover {
+    transform: scale(0.5);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    transition: transform 0.3s ease;
+}
+
+.footer-container:hover {
+    transform: scale(1.1);
+}
+
+.footer-about h1 {
+    text-align: center;
+    color: white;
+    margin-top: 42px;
+    transition: transform 0.3s ease;
+}
+
+.footer-about h1:hover {
+    transform: scale(1.2) skewy(59deg);
+}
+
+.footer-about p {
+    text-align: center;
+    margin-top: 21px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.footer-about p:hover {
+    transform: scale(1.1) rotateY(15deg);
+}
+
+.footer-section h3 {
+    color: #f48e7f;
+    font-size: 28px;
+    margin-bottom: 52px;
+    margin-top: 43px;
+    transition: transform 0.3s ease;
+}
+
+.footer-section h3:hover {
+    transform: scaleX(1.1) rotateY(-15deg);
+}
+
+.footer-section ul {
+    list-style: none;
+    margin-bottom: -10px;
+    transition: transform 0.3s ease;
+}
+
+.footer-section ul:hover {
+    transform: scaleX(1.05);
+}
+
+.footer-section ul li {
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.footer-section ul li:hover {
+    transform: rotate(20deg);
+}
+
+.footer-bottom p {
+    margin-left: 82px;
+    transition: transform 0.3s ease;
+}
+
+.footer-bottom p:hover {
+    transform: scaleX(1.1) skewX(15deg);
+}
+
+.footer-bottom .social-icons a img {
+    width: 51px;
+    height: 48px;
+    margin-left: 42px;
+    transition: transform 0.3s ease;
+}
+
+.footer-bottom .social-icons a img:hover {
+    transform: scale(1.2);
+}
